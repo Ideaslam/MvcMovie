@@ -1,0 +1,85 @@
+2025-05-12 15:51:53.584 +03:00 [INF] 🚀 Application started up
+2025-05-12 15:51:55.745 +03:00 [WRN] Failed to determine the https port for redirect.
+2025-05-12 15:51:56.028 +03:00 [WRN] No store type was specified for the decimal property 'Price' on entity type 'Product'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-05-12 15:52:49.255 +03:00 [INF] ParrallelPush completed in 32660 ms
+2025-05-12 15:53:10.101 +03:00 [INF] SequescePush completed in 12230 ms
+2025-05-12 16:16:29.718 +03:00 [INF] 🚀 Application started up
+2025-05-12 16:17:07.195 +03:00 [WRN] Failed to determine the https port for redirect.
+2025-05-12 16:17:07.448 +03:00 [WRN] No store type was specified for the decimal property 'Price' on entity type 'Product'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-05-12 16:18:19.047 +03:00 [INF] 🚀 Application started up
+2025-05-12 16:18:20.130 +03:00 [WRN] Failed to determine the https port for redirect.
+2025-05-12 16:18:21.621 +03:00 [WRN] No store type was specified for the decimal property 'Price' on entity type 'Product'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-05-12 16:19:04.700 +03:00 [INF] 🚀 Application started up
+2025-05-12 16:19:10.095 +03:00 [WRN] Failed to determine the https port for redirect.
+2025-05-12 16:19:10.345 +03:00 [WRN] No store type was specified for the decimal property 'Price' on entity type 'Product'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-05-12 16:21:05.373 +03:00 [INF] 🚀 Application started up
+2025-05-12 16:21:17.011 +03:00 [WRN] Failed to determine the https port for redirect.
+2025-05-12 16:21:17.279 +03:00 [WRN] No store type was specified for the decimal property 'Price' on entity type 'Product'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-05-12 16:24:24.068 +03:00 [INF] 🚀 Application started up
+2025-05-12 16:24:25.116 +03:00 [WRN] Failed to determine the https port for redirect.
+2025-05-12 16:24:25.391 +03:00 [WRN] No store type was specified for the decimal property 'Price' on entity type 'Product'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-05-12 16:24:42.847 +03:00 [INF] ParrallelPush completed in 5671 ms
+2025-05-12 16:24:48.335 +03:00 [INF] SequescePush completed in 5486 ms
+2025-05-12 16:25:02.298 +03:00 [INF] 🚀 Application started up
+2025-05-12 16:25:09.243 +03:00 [WRN] Failed to determine the https port for redirect.
+2025-05-12 16:25:10.165 +03:00 [WRN] No store type was specified for the decimal property 'Price' on entity type 'Product'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-05-12 16:25:25.603 +03:00 [INF] ParrallelPush completed in 736 ms
+2025-05-12 16:25:26.249 +03:00 [INF] SequescePush completed in 645 ms
+2025-05-12 16:25:43.251 +03:00 [INF] ParrallelPush completed in 663 ms
+2025-05-12 16:25:43.925 +03:00 [INF] SequescePush completed in 674 ms
+2025-05-12 16:26:40.564 +03:00 [INF] 🚀 Application started up
+2025-05-12 16:26:46.170 +03:00 [WRN] Failed to determine the https port for redirect.
+2025-05-12 16:26:46.958 +03:00 [WRN] No store type was specified for the decimal property 'Price' on entity type 'Product'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-05-12 16:26:54.723 +03:00 [INF] ParrallelPush completed in 1296 ms
+2025-05-12 16:26:55.961 +03:00 [INF] SequescePush completed in 1238 ms
+2025-05-12 16:43:59.481 +03:00 [INF] 🚀 Application started up
+2025-05-12 16:44:11.172 +03:00 [WRN] Failed to determine the https port for redirect.
+2025-05-12 16:44:12.042 +03:00 [WRN] No store type was specified for the decimal property 'Price' on entity type 'Product'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-05-12 16:44:42.675 +03:00 [INF] ParrallelPush completed in 93 ms
+2025-05-12 16:44:48.914 +03:00 [INF] ParrallelChunkPush completed in 6238 ms
+2025-05-12 16:44:50.567 +03:00 [INF] SequescePush completed in 1651 ms
+2025-05-12 16:45:48.971 +03:00 [INF] 🚀 Application started up
+2025-05-12 16:45:49.691 +03:00 [WRN] Failed to determine the https port for redirect.
+2025-05-12 16:45:50.948 +03:00 [WRN] No store type was specified for the decimal property 'Price' on entity type 'Product'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-05-12 16:45:59.580 +03:00 [INF] ParrallelPush completed in 1397 ms
+2025-05-12 16:46:07.004 +03:00 [INF] ParrallelChunkPush completed in 7422 ms
+2025-05-12 16:46:08.204 +03:00 [INF] SequescePush completed in 1199 ms
+2025-05-12 16:49:20.530 +03:00 [INF] 🚀 Application started up
+2025-05-12 16:49:20.612 +03:00 [ERR] Hosting failed to start
+System.IO.IOException: Failed to bind to address http://127.0.0.1:5078: address already in use.
+ ---> Microsoft.AspNetCore.Connections.AddressInUseException: Address already in use
+ ---> System.Net.Sockets.SocketException (48): Address already in use
+   at System.Net.Sockets.Socket.DoBind(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Bind(EndPoint localEP)
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketTransportOptions.CreateDefaultBoundListenSocket(EndPoint endpoint)
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketConnectionListener.Bind()
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketConnectionListener.Bind()
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketTransportFactory.BindAsync(EndPoint endpoint, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Infrastructure.TransportManager.BindAsync(EndPoint endPoint, ConnectionDelegate connectionDelegate, EndpointConfig endpointConfig, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.<>c__DisplayClass28_0`1.<<StartAsync>g__OnBind|0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindEndpointAsync(ListenOptions endpoint, AddressBindContext context, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindEndpointAsync(ListenOptions endpoint, AddressBindContext context, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.LocalhostListenOptions.BindAsync(AddressBindContext context, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.AddressesStrategy.BindAsync(AddressBindContext context, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindAsync(ListenOptions[] listenOptions, AddressBindContext context, Func`2 useHttps, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.BindAsync(CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.StartAsync[TContext](IHttpApplication`1 application, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.Internal.Host.<StartAsync>b__15_1(IHostedService service, CancellationToken token)
+   at Microsoft.Extensions.Hosting.Internal.Host.ForeachService[T](IEnumerable`1 services, CancellationToken token, Boolean concurrent, Boolean abortOnFirstException, List`1 exceptions, Func`3 operation)
+2025-05-12 16:49:36.149 +03:00 [INF] 🚀 Application started up
+2025-05-12 16:49:37.341 +03:00 [WRN] Failed to determine the https port for redirect.
+2025-05-12 16:49:41.900 +03:00 [WRN] No store type was specified for the decimal property 'Price' on entity type 'Product'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-05-12 16:49:43.581 +03:00 [INF] ParrallelPush completed in 1939 ms
+2025-05-12 16:50:40.414 +03:00 [INF] 🚀 Application started up
+2025-05-12 16:50:40.767 +03:00 [WRN] Failed to determine the https port for redirect.
+2025-05-12 16:50:42.100 +03:00 [WRN] No store type was specified for the decimal property 'Price' on entity type 'Product'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-05-12 16:50:48.556 +03:00 [INF] ParrallelPush completed in 959 ms
+2025-05-12 16:50:50.021 +03:00 [INF] ParrallelChunkPush completed in 1464 ms
+2025-05-12 16:50:50.728 +03:00 [INF] SequescePush completed in 706 ms
+2025-05-12 16:51:31.125 +03:00 [INF] ParrallelPush completed in 507 ms
+2025-05-12 16:51:32.902 +03:00 [INF] ParrallelChunkPush completed in 1776 ms
+2025-05-12 16:51:33.319 +03:00 [INF] SequescePush completed in 416 ms

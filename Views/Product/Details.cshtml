@@ -1,0 +1,13 @@
+@model MvcMovie.Entities.Product 
+
+<h2>Product Details</h2>
+
+<div>
+    <img width="128px" height="128px" style="object-fit: cover;" src="~/uploads/@Model.Image" alt="">
+    <p><strong>Name:</strong> @Model.Name</p>
+    <p><strong>Price:</strong> @Model.Price.ToString("C")</p>
+</div>
+
+<a asp-action="Index" class="btn btn-secondary">Back to List</a>
+<a asp-action="Edit" asp-route-id="@Model.Id" class="btn btn-primary">Edit</a>
+<a asp-action="Delete" asp-route-id="@Model.Id" class="btn btn-danger">Delete</a>

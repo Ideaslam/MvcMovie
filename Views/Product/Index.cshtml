@@ -1,0 +1,98 @@
+@using MvcMovie.Entities;
+@using MvcMovie.Models;
+@using MvcMovie.Helpers;
+@model PaginatedList<Product>
+
+<div class="container mt-4">
+    <div class="d-flex justify-content-between align-items-center mb-4">
+        <h2 class="text-primary">Product List</h2>
+
+        <a class="btn btn-outline-secondary" asp-action="Upload">
+            <i class="bi bi-house"></i> Upload Excel
+        </a>
+        <a class="btn btn-primary" asp-action="Create">
+            <i class="bi bi-plus-circle"></i> Create New Product
+        </a>
+    </div>
+
+    <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+        @foreach (var product in Model.Items)
+        {
+            <div class="col">
+                <div class="card h-100 shadow-sm">
+                    <div class="card-img-top p-3 text-center">
+                        @if (!String.IsNullOrEmpty(product.Image))
+
+
+                        {
+                            <img class="img-fluid" style="height: 150px; object-fit: contain;" src="~/uploads/@product.Image"
+                                alt="@product.Name" />
+                        }
+                        else
+                        {
+                            <img class="img-fluid" style="height: 150px; object-fit: contain;"
+                                src="@Url.Content("~/uploads/no-image.png")" alt="No Image" />
+                        }
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">
+                            <a class="text-decoration-none text-dark"
+                                href="@Url.Action("Details", "Product", new { id = product.Id })">
+                                @product.Name
+                            </a>
+                        </h5>
+                        <div class="mt-3 d-flex gap-2">
+                            <a class="btn btn-outline-primary btn-sm" asp-action="Details" asp-route-id="@product.Id">
+                                <i class="bi bi-eye"></i> View
+                            </a>
+                            <a class="btn btn-outline-secondary btn-sm" asp-action="Edit" asp-route-id="@product.Id">
+                                <i class="bi bi-pencil"></i> Edit
+                            </a>
+                            <a class="btn btn-outline-danger btn-sm" asp-action="Delete" asp-route-id="@product.Id">
+                                <i class="bi bi-trash"></i> Delete
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+
+
+    <nav>
+        <ul class="pagination">
+
+            <li class="page-item">
+                <a class="page-link" asp-action="Index" asp-route-page="@(1 )">First</a>
+            </li>
+            @if (Model.HasPreviousPage)
+            {
+                <li class="page-item">
+                    <a class="page-link" asp-action="Index" asp-route-page="@(Model.PageIndex - 1)">Previous</a>
+                </li>
+            }
+
+            @for (int i = Math.Max(0, Model.PageIndex - 2); i <= Math.Min(Model.TotalPages - 1, Model.PageIndex + 3); i++)
+            {
+                if(i <= 0 || i > Model.TotalPages)
+                {
+                    continue;
+                }
+                <li class="page-item @(i == Model.PageIndex ? "active" : "")">
+                    <a class="page-link" asp-action="Index" asp-route-page="@i">@(i)</a>
+                </li>
+            }
+
+            @if (Model.HasNextPage)
+            {
+                <li class="page-item">
+                    <a class="page-link" asp-action="Index" asp-route-page="@(Model.PageIndex + 1)">Next</a>
+                </li>
+            }
+
+              <li class="page-item">
+                <a class="page-link" asp-action="Index" asp-route-page="@(Model.TotalPages-1)">Last</a>
+            </li>
+        </ul>
+    </nav>
+</div>

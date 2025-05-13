@@ -1,0 +1,49 @@
+@model UploadExcelViewModel
+
+<h2>Upload Excel File</h2>
+
+<form id="uploadForm" enctype="multipart/form-data">
+    <input type="file" name="ExcelFile" id="ExcelFile" />
+    <button type="submit" class="btn btn-primary">Upload</button>
+</form>
+
+<div class="progress my-3" style="height: 25px; display:none;">
+    <div class="progress-bar" id="progressBar" style="width: 0%">0%</div>
+</div>
+
+<div id="resultArea"></div>
+
+@section Scripts {
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+        $("#uploadForm").submit(function (e) {
+            e.preventDefault();
+
+            var formData = new FormData();
+            var file = $("#ExcelFile")[0].files[0];
+            if (!file) {
+                alert("Please select an Excel file.");
+                return;
+            }
+            formData.append("ExcelFile", file);
+
+            $(".progress").show();
+            $("#progressBar").css("width", "30%").text("Processing...");
+
+            $.ajax({
+                url: '/Product/Upload',
+                type: 'POST',
+                data: formData,
+                processData: false,
+                contentType: false,
+                success: function (data) {
+                    $("#progressBar").css("width", "100%").text("Done");
+                    $("#resultArea").html($(data).find("#resultContent").html());
+                },
+                error: function () {
+                    $("#progressBar").css("width", "100%").addClass("bg-danger").text("Error");
+                }
+            });
+        });
+    </script>
+}

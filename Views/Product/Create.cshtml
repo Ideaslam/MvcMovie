@@ -1,4 +1,6 @@
-@model ProductViewModel
+
+@using MvcMovie.Settings
+@model ProductViewModel 
 @Html.ValidationSummary(true, "", new { @class = "text-danger" })
 
 
@@ -18,7 +20,7 @@
                 <input asp-for="Name" class="form-control" />
                 <span asp-validation-for="Name" class="text-danger"></span>
             </div>
-            <div class="form-group">
+            <div class="form-group"> 
                 <label asp-for="Price" class="control-label"></label>
                 <input asp-for="Price" class="form-control" />
                 <span asp-validation-for="Price" class="text-danger"></span>
@@ -40,7 +42,10 @@
 
             <div class="form-group">
                 <label>Upload Image</label>
-                <input asp-for="ImageFile" type="file" class="form-control" onchange="previewImage(this)" />
+                <input asp-for="ImageFile" type="file" class="form-control" onchange="previewImage(this)" 
+                data-rule-extension="@FileSettings.ValidImageExtensions.Replace(".", String.Empty)"
+                data-msg-extension="Not Allowed Extension"
+                />
                 <span asp-validation-for="ImageFile" class="text-danger"></span>
             </div>
 
@@ -64,9 +69,7 @@
 
 
 @section scripts {
-    <script src="~/js/preview.js"></script>
-
-    @{
-        await Html.RenderPartialAsync("_ValidationScriptsPartial");
-    }
+    <script src="~/js/preview.js" asp-append-version="true">  </script>
+ 
+    <partial name="_ValidationScriptsPartial" />
 }

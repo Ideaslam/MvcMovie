@@ -6,6 +6,7 @@ using MvcMovie.Data;
 using MvcMovie.Entities;
 using MvcMovie.Helpers;
 using MvcMovie.Models;
+using MvcMovie.Settings;
 using Serilog;
 
 namespace MvcMovie.Services;
@@ -36,8 +37,8 @@ public class ProductService : IProductService
         var imageName = string.Empty;
 
         if (model.ImageFile == null
-        || !FileHelpers.IsValidSize(model.ImageFile, 5)
-        || !FileHelpers.IsValidType(model.ImageFile, [".jpg", ".png", ".jpeg"]))
+        || !FileHelpers.IsValidSize(model.ImageFile, FileSettings.MaxFileSizeInMB)
+        || !FileHelpers.IsValidType(model.ImageFile, FileSettings.ValidImageExtensions))
         {
             throw new ArgumentException("Invalid file");
         }
@@ -72,8 +73,8 @@ public class ProductService : IProductService
         var imageName = string.Empty;
 
         if (model.ImageFile == null
-        || FileHelpers.IsValidSize(model.ImageFile, 5)
-        || FileHelpers.IsValidType(model.ImageFile, [".jpg", ".png", ".jpeg"]))
+        || FileHelpers.IsValidSize(model.ImageFile, FileSettings.MaxFileSizeInMB)
+        || FileHelpers.IsValidType(model.ImageFile,FileSettings.ValidImageExtensions))
         {
             throw new ArgumentException("Invalid file");
         }

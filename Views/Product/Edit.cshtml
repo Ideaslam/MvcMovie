@@ -36,7 +36,8 @@
             <div>
 
                 <label for="Upload Image"></label>
-                <input  asp-for="ImageFile" type="file" name="ImageFile" class="form-control" onchange="previewImage(this)" />
+                <input asp-for="ImageFile" type="file" name="ImageFile" class="form-control"
+                    onchange="previewImage(this)" />
 
             </div>
 
@@ -46,8 +47,10 @@
 
         <div class="  col-4">
             <div>
-                <img id="imagePreview" class="preview-img" src="~/uploads/@Model.ImageName" width="100%" style="object-fit: contain;" alt="">
-
+                 
+                    <img id="imagePreview" class="preview-img" src="~/uploads/@Model.ImageName" width="100%"
+                        style="object-fit: contain;" alt="">
+                
             </div>
         </div>
     </div>

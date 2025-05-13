@@ -40,7 +40,7 @@
 
             <div class="form-group">
                 <label>Upload Image</label>
-                <input asp-for="ImageFile" type="file" class="form-control" />
+                <input asp-for="ImageFile" type="file" class="form-control" onchange="previewImage(this)" />
                 <span asp-validation-for="ImageFile" class="text-danger"></span>
             </div>
 
@@ -53,9 +53,10 @@
 
         <div class="  col-4">
             <div>
-                <img id="imagePreview" class="preview-img" src="~/uploads/@Model.ImageName" width="100%"
-                    style="object-fit: contain;" alt="">
-
+              
+                    <img id="imagePreview" class="preview-img" src="~/uploads/@Model.ImageName" width="100%"
+                        style="object-fit: contain;" alt="">
+                
             </div>
         </div>
     </div>

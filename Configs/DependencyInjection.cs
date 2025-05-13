@@ -11,6 +11,7 @@ public class DependencyInjection
     {
         services.AddScoped<IProductService, ProductService>(); 
         services.AddScoped<IPusher<Product>, Pusher<Product>>(); 
+        services.AddScoped<ICurrencyService, CurrencyService>(); 
     
     }
     

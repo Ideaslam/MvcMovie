@@ -1,21 +1,44 @@
 @using MvcMovie.Entities;
 @using MvcMovie.Models;
 @using MvcMovie.Helpers;
+@{
+    ViewData["Title"] = "Products";
+}
 @model PaginatedList<Product>
 
 <div class="container mt-4">
     <div class="d-flex justify-content-between align-items-center mb-4">
-        <h2 class="text-primary">Product List</h2>
+        <div>
+            <h2 class="text-primary">Product List</h2>
+            <p class="text-muted">Total Products: @Model.TotalCount</p>
+        </div>
 
-        <a class="btn btn-outline-secondary" asp-action="Upload">
-            <i class="bi bi-house"></i> Upload Excel
-        </a>
-        <a class="btn btn-primary" asp-action="Create">
-            <i class="bi bi-plus-circle"></i> Create New Product
-        </a>
+        <div>
+            <a class="btn btn-outline-secondary" asp-action="Upload">
+                <i class="bi bi-house"></i> Upload Excel
+            </a>
+            <a class="btn btn-primary" asp-action="Create">
+                <i class="bi bi-plus-circle"></i> Create New Product
+            </a>
+        </div>
+
+
     </div>
 
+    @if (Model.Items.Count == 0)
+    {
+        <div class="row col-12">
+            <div class="alert alert-info text-center">
+    using System.Globalization;
+    using System.Globalization;
+    using System.Globalization;
+    using System.Globalization;
+                <strong>No products found.</strong>
+            </div>
+        </div>
+    }
     <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+
         @foreach (var product in Model.Items)
         {
             <div class="col">
@@ -25,12 +48,13 @@
 
 
                         {
-                            <img class="img-fluid" style="height: 150px; object-fit: contain;" src="~/uploads/@product.Image"
+                            <img class="img-fluid" style="aspect-ratio: 4/3; object-fit: cover;" src="~/uploads/@product.Image"
                                 alt="@product.Name" />
                         }
                         else
+
                         {
-                            <img class="img-fluid" style="height: 150px; object-fit: contain;"
+                            <img class="img-fluid" style="aspect-ratio: 4/3; object-fit: cover;"
                                 src="@Url.Content("~/uploads/no-image.png")" alt="No Image" />
                         }
                     </div>
@@ -38,7 +62,7 @@
                         <h5 class="card-title">
                             <a class="text-decoration-none text-dark"
                                 href="@Url.Action("Details", "Product", new { id = product.Id })">
-                                @product.Name
+                                @product.Name @product.Price.ToString() @product.Currency
                             </a>
                         </h5>
                         <div class="mt-3 d-flex gap-2">
@@ -62,19 +86,22 @@
     <nav>
         <ul class="pagination">
 
-            <li class="page-item">
-                <a class="page-link" asp-action="Index" asp-route-page="@(1 )">First</a>
-            </li>
+
+
             @if (Model.HasPreviousPage)
             {
+                <li class="page-item">
+                    <a class="page-link" asp-action="Index" asp-route-page="@(1)">First</a>
+                </li>
                 <li class="page-item">
                     <a class="page-link" asp-action="Index" asp-route-page="@(Model.PageIndex - 1)">Previous</a>
                 </li>
             }
 
-            @for (int i = Math.Max(0, Model.PageIndex - 2); i <= Math.Min(Model.TotalPages - 1, Model.PageIndex + 3); i++)
+            @for (int i = Math.Max(0, Model.PageIndex - 2); i <= Math.Min(Model.TotalPages - 1, Model.PageIndex + 3);
+                        i++)
             {
-                if(i <= 0 || i > Model.TotalPages)
+                if (i <= 0 || i > Model.TotalPages)
                 {
                     continue;
                 }
@@ -88,11 +115,12 @@
                 <li class="page-item">
                     <a class="page-link" asp-action="Index" asp-route-page="@(Model.PageIndex + 1)">Next</a>
                 </li>
+                <li class="page-item">
+                    <a class="page-link" asp-action="Index" asp-route-page="@(Model.TotalPages - 1)">Last</a>
+                </li>
             }
 
-              <li class="page-item">
-                <a class="page-link" asp-action="Index" asp-route-page="@(Model.TotalPages-1)">Last</a>
-            </li>
+
         </ul>
     </nav>
 </div>

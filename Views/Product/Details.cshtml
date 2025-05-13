@@ -5,7 +5,7 @@
 <div>
     <img width="128px" height="128px" style="object-fit: cover;" src="~/uploads/@Model.Image" alt="">
     <p><strong>Name:</strong> @Model.Name</p>
-    <p><strong>Price:</strong> @Model.Price.ToString("C")</p>
+    <p><strong>Price:</strong> @Model.Price.ToString("C") @Model.Currency</p>
 </div>
 
 <a asp-action="Index" class="btn btn-secondary">Back to List</a>

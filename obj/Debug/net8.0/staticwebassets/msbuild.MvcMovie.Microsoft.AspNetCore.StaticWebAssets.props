@@ -12,8 +12,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>c2tiyv64ts</Fingerprint>
-      <Integrity>pAGv4ietcJNk/EwsQZ5BN9+K4MuNYS2a9wl4Jw+q9D0=</Integrity>
+      <Fingerprint>91f9eniidh</Fingerprint>
+      <Integrity>Xd6yLSPC0FZtX3g3j9ij9DbQzJGWPXLGFIBmkv0PF5c=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\site.css'))</OriginalItemSpec>
@@ -35,6 +35,24 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\favicon.ico'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\preview.js'))">
+      <SourceType>Package</SourceType>
+      <SourceId>MvcMovie</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/MvcMovie</BasePath>
+      <RelativePath>js/preview.js</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>lw04whsnlj</Fingerprint>
+      <Integrity>a571OuUCwMSMzxeEKHuHDGy/wuTy+9jWkaO9Sb8yfDg=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\preview.js'))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\site.js'))">
       <SourceType>Package</SourceType>
@@ -1134,6 +1152,24 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\2f97f341-16eb-4776-865c-aba55ff3e3fb_405971-9-inch-screen-and-larger-tablets-apple-ipad-air-64gb-2022-10027817.png'))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\34763625-0827-44af-8eb0-39081fc41015_michal-ilenda-UzwsrV3bFdU-unsplash.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>MvcMovie</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/MvcMovie</BasePath>
+      <RelativePath>uploads/34763625-0827-44af-8eb0-39081fc41015_michal-ilenda-UzwsrV3bFdU-unsplash.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>po4cb1ff78</Fingerprint>
+      <Integrity>Rx4E4syOTC+OfAWgJLZczeq6vicM4o9htksRBFKuF/s=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\34763625-0827-44af-8eb0-39081fc41015_michal-ilenda-UzwsrV3bFdU-unsplash.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\40278020-c9ad-440f-b46c-ba413c930247_916fc893-32ad-4fa2-8d58-94f03ded996a.png'))">
       <SourceType>Package</SourceType>
       <SourceId>MvcMovie</SourceId>
@@ -1152,6 +1188,60 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\40278020-c9ad-440f-b46c-ba413c930247_916fc893-32ad-4fa2-8d58-94f03ded996a.png'))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\6c999fe4-8e34-4609-8a46-a21b5bb5bf7e_amir-lehri-d7AXvFUjqxA-unsplash.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>MvcMovie</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/MvcMovie</BasePath>
+      <RelativePath>uploads/6c999fe4-8e34-4609-8a46-a21b5bb5bf7e_amir-lehri-d7AXvFUjqxA-unsplash.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>9cpvb1qcb3</Fingerprint>
+      <Integrity>9z7LtdTBa+3RZUv856jFmRJLaCGs9kprVudTsVNINSA=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\6c999fe4-8e34-4609-8a46-a21b5bb5bf7e_amir-lehri-d7AXvFUjqxA-unsplash.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\71832092-26ff-4b9c-a428-907aed8326cc_inside-weather-YBG3jopJaS0-unsplash.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>MvcMovie</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/MvcMovie</BasePath>
+      <RelativePath>uploads/71832092-26ff-4b9c-a428-907aed8326cc_inside-weather-YBG3jopJaS0-unsplash.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>yrf3fuqzf8</Fingerprint>
+      <Integrity>YoYUnYsgTfz5AWQeUVBsquajk0bgrzYdXJ5B1SZIRGM=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\71832092-26ff-4b9c-a428-907aed8326cc_inside-weather-YBG3jopJaS0-unsplash.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\7af0828f-ac1a-429e-b30a-9058a5c3fb25_amir-lehri-d7AXvFUjqxA-unsplash.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>MvcMovie</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/MvcMovie</BasePath>
+      <RelativePath>uploads/7af0828f-ac1a-429e-b30a-9058a5c3fb25_amir-lehri-d7AXvFUjqxA-unsplash.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>9cpvb1qcb3</Fingerprint>
+      <Integrity>9z7LtdTBa+3RZUv856jFmRJLaCGs9kprVudTsVNINSA=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\7af0828f-ac1a-429e-b30a-9058a5c3fb25_amir-lehri-d7AXvFUjqxA-unsplash.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\8f24ac37-3d4c-4884-ab47-1efbdcbcd9cc_916fc893-32ad-4fa2-8d58-94f03ded996a.png'))">
       <SourceType>Package</SourceType>
       <SourceId>MvcMovie</SourceId>
@@ -1169,6 +1259,96 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\8f24ac37-3d4c-4884-ab47-1efbdcbcd9cc_916fc893-32ad-4fa2-8d58-94f03ded996a.png'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\9305654b-4d45-40ae-83f1-6376aa1c3500_amir-lehri-d7AXvFUjqxA-unsplash.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>MvcMovie</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/MvcMovie</BasePath>
+      <RelativePath>uploads/9305654b-4d45-40ae-83f1-6376aa1c3500_amir-lehri-d7AXvFUjqxA-unsplash.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>9cpvb1qcb3</Fingerprint>
+      <Integrity>9z7LtdTBa+3RZUv856jFmRJLaCGs9kprVudTsVNINSA=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\9305654b-4d45-40ae-83f1-6376aa1c3500_amir-lehri-d7AXvFUjqxA-unsplash.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\c0007549-e1b7-4b4c-befb-3ca15d0d9d2b_405971-9-inch-screen-and-larger-tablets-apple-ipad-air-64gb-2022-10027817.png'))">
+      <SourceType>Package</SourceType>
+      <SourceId>MvcMovie</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/MvcMovie</BasePath>
+      <RelativePath>uploads/c0007549-e1b7-4b4c-befb-3ca15d0d9d2b_405971-9-inch-screen-and-larger-tablets-apple-ipad-air-64gb-2022-10027817.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>bc5frnu0x2</Fingerprint>
+      <Integrity>y19Q0oo4C1cWG8Y7M6yC5pOjAox+AwEsXp3clNWnr7o=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\c0007549-e1b7-4b4c-befb-3ca15d0d9d2b_405971-9-inch-screen-and-larger-tablets-apple-ipad-air-64gb-2022-10027817.png'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\c171f1ec-e6a6-4cd0-a88c-07bb5659c627_amir-lehri-d7AXvFUjqxA-unsplash.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>MvcMovie</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/MvcMovie</BasePath>
+      <RelativePath>uploads/c171f1ec-e6a6-4cd0-a88c-07bb5659c627_amir-lehri-d7AXvFUjqxA-unsplash.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>9cpvb1qcb3</Fingerprint>
+      <Integrity>9z7LtdTBa+3RZUv856jFmRJLaCGs9kprVudTsVNINSA=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\c171f1ec-e6a6-4cd0-a88c-07bb5659c627_amir-lehri-d7AXvFUjqxA-unsplash.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\fafdd06d-96a6-4903-93cf-4c6bd01fbb53_md-mahdi-lQpFRPrepQ8-unsplash.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>MvcMovie</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/MvcMovie</BasePath>
+      <RelativePath>uploads/fafdd06d-96a6-4903-93cf-4c6bd01fbb53_md-mahdi-lQpFRPrepQ8-unsplash.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>qpj0zohtxh</Fingerprint>
+      <Integrity>zhZT9kSvDfpq3fcPGvj6J9qD7CzuTJFreHy/8Eq6v0A=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\fafdd06d-96a6-4903-93cf-4c6bd01fbb53_md-mahdi-lQpFRPrepQ8-unsplash.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\fe8129eb-6472-4c8a-96b6-206063f1784f_giorgio-trovato-p0OlRAAYXLY-unsplash.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>MvcMovie</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/MvcMovie</BasePath>
+      <RelativePath>uploads/fe8129eb-6472-4c8a-96b6-206063f1784f_giorgio-trovato-p0OlRAAYXLY-unsplash.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>t83fb0mpvg</Fingerprint>
+      <Integrity>LUmDUIHy6/YAXnIdplozKdl9bsXbOw/Xx0hcPzxc/AQ=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\fe8129eb-6472-4c8a-96b6-206063f1784f_giorgio-trovato-p0OlRAAYXLY-unsplash.jpg'))</OriginalItemSpec>
     </StaticWebAsset>
   </ItemGroup>
 </Project>

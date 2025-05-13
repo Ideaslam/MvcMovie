@@ -13,6 +13,10 @@
       "PackagePath": "staticwebassets/favicon.ico"
     },
     {
+      "Id": "/Users/islamhaa/projects/orgs/medgulf/learn/dotnetMVC/MvcMovie/wwwroot/js/preview.js",
+      "PackagePath": "staticwebassets/js/preview.js"
+    },
+    {
       "Id": "/Users/islamhaa/projects/orgs/medgulf/learn/dotnetMVC/MvcMovie/wwwroot/js/site.js",
       "PackagePath": "staticwebassets/js/site.js"
     },
@@ -253,12 +257,48 @@
       "PackagePath": "staticwebassets/uploads/2f97f341-16eb-4776-865c-aba55ff3e3fb_405971-9-inch-screen-and-larger-tablets-apple-ipad-air-64gb-2022-10027817.png"
     },
     {
+      "Id": "/Users/islamhaa/projects/orgs/medgulf/learn/dotnetMVC/MvcMovie/wwwroot/uploads/34763625-0827-44af-8eb0-39081fc41015_michal-ilenda-UzwsrV3bFdU-unsplash.jpg",
+      "PackagePath": "staticwebassets/uploads/34763625-0827-44af-8eb0-39081fc41015_michal-ilenda-UzwsrV3bFdU-unsplash.jpg"
+    },
+    {
       "Id": "/Users/islamhaa/projects/orgs/medgulf/learn/dotnetMVC/MvcMovie/wwwroot/uploads/40278020-c9ad-440f-b46c-ba413c930247_916fc893-32ad-4fa2-8d58-94f03ded996a.png",
       "PackagePath": "staticwebassets/uploads/40278020-c9ad-440f-b46c-ba413c930247_916fc893-32ad-4fa2-8d58-94f03ded996a.png"
     },
     {
+      "Id": "/Users/islamhaa/projects/orgs/medgulf/learn/dotnetMVC/MvcMovie/wwwroot/uploads/6c999fe4-8e34-4609-8a46-a21b5bb5bf7e_amir-lehri-d7AXvFUjqxA-unsplash.jpg",
+      "PackagePath": "staticwebassets/uploads/6c999fe4-8e34-4609-8a46-a21b5bb5bf7e_amir-lehri-d7AXvFUjqxA-unsplash.jpg"
+    },
+    {
+      "Id": "/Users/islamhaa/projects/orgs/medgulf/learn/dotnetMVC/MvcMovie/wwwroot/uploads/71832092-26ff-4b9c-a428-907aed8326cc_inside-weather-YBG3jopJaS0-unsplash.jpg",
+      "PackagePath": "staticwebassets/uploads/71832092-26ff-4b9c-a428-907aed8326cc_inside-weather-YBG3jopJaS0-unsplash.jpg"
+    },
+    {
+      "Id": "/Users/islamhaa/projects/orgs/medgulf/learn/dotnetMVC/MvcMovie/wwwroot/uploads/7af0828f-ac1a-429e-b30a-9058a5c3fb25_amir-lehri-d7AXvFUjqxA-unsplash.jpg",
+      "PackagePath": "staticwebassets/uploads/7af0828f-ac1a-429e-b30a-9058a5c3fb25_amir-lehri-d7AXvFUjqxA-unsplash.jpg"
+    },
+    {
       "Id": "/Users/islamhaa/projects/orgs/medgulf/learn/dotnetMVC/MvcMovie/wwwroot/uploads/8f24ac37-3d4c-4884-ab47-1efbdcbcd9cc_916fc893-32ad-4fa2-8d58-94f03ded996a.png",
       "PackagePath": "staticwebassets/uploads/8f24ac37-3d4c-4884-ab47-1efbdcbcd9cc_916fc893-32ad-4fa2-8d58-94f03ded996a.png"
+    },
+    {
+      "Id": "/Users/islamhaa/projects/orgs/medgulf/learn/dotnetMVC/MvcMovie/wwwroot/uploads/9305654b-4d45-40ae-83f1-6376aa1c3500_amir-lehri-d7AXvFUjqxA-unsplash.jpg",
+      "PackagePath": "staticwebassets/uploads/9305654b-4d45-40ae-83f1-6376aa1c3500_amir-lehri-d7AXvFUjqxA-unsplash.jpg"
+    },
+    {
+      "Id": "/Users/islamhaa/projects/orgs/medgulf/learn/dotnetMVC/MvcMovie/wwwroot/uploads/c0007549-e1b7-4b4c-befb-3ca15d0d9d2b_405971-9-inch-screen-and-larger-tablets-apple-ipad-air-64gb-2022-10027817.png",
+      "PackagePath": "staticwebassets/uploads/c0007549-e1b7-4b4c-befb-3ca15d0d9d2b_405971-9-inch-screen-and-larger-tablets-apple-ipad-air-64gb-2022-10027817.png"
+    },
+    {
+      "Id": "/Users/islamhaa/projects/orgs/medgulf/learn/dotnetMVC/MvcMovie/wwwroot/uploads/c171f1ec-e6a6-4cd0-a88c-07bb5659c627_amir-lehri-d7AXvFUjqxA-unsplash.jpg",
+      "PackagePath": "staticwebassets/uploads/c171f1ec-e6a6-4cd0-a88c-07bb5659c627_amir-lehri-d7AXvFUjqxA-unsplash.jpg"
+    },
+    {
+      "Id": "/Users/islamhaa/projects/orgs/medgulf/learn/dotnetMVC/MvcMovie/wwwroot/uploads/fafdd06d-96a6-4903-93cf-4c6bd01fbb53_md-mahdi-lQpFRPrepQ8-unsplash.jpg",
+      "PackagePath": "staticwebassets/uploads/fafdd06d-96a6-4903-93cf-4c6bd01fbb53_md-mahdi-lQpFRPrepQ8-unsplash.jpg"
+    },
+    {
+      "Id": "/Users/islamhaa/projects/orgs/medgulf/learn/dotnetMVC/MvcMovie/wwwroot/uploads/fe8129eb-6472-4c8a-96b6-206063f1784f_giorgio-trovato-p0OlRAAYXLY-unsplash.jpg",
+      "PackagePath": "staticwebassets/uploads/fe8129eb-6472-4c8a-96b6-206063f1784f_giorgio-trovato-p0OlRAAYXLY-unsplash.jpg"
     },
     {
       "Id": "obj/Debug/net8.0/staticwebassets/msbuild.MvcMovie.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",

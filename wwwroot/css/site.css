@@ -20,3 +20,9 @@ html {
 body {
   margin-bottom: 60px;
 }
+
+.preview-img{
+  object-fit: contain;
+    border: solid 10px #dbdbc3;
+    border-radius: 15px;
+}

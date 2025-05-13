@@ -10,12 +10,14 @@ public class PaginatedList<T>
         TotalPages = (int)Math.Ceiling(count / (double)pageSize);
         PageSize = pageSize;
         Items = items;
+        TotalCount = count;
     }
     public int PageIndex { get; private set; }
     public int PageSize { get; private set; }
     public bool PaginationEnabled { get; private set; }
 
     public int TotalPages { get; private set; }
+    public int TotalCount { get; private set; }
     public List<T> Items { get; private set; }
 
     public bool HasPreviousPage => (PageIndex > 1);
@@ -40,7 +42,7 @@ public class PaginatedList<T>
         {
             pageIndex = (int)Math.Ceiling(count / (double)pageSize);
         }
-        var items = await source.Skip((pageIndex - 1) * pageSize).Take(pageSize).ToListAsync();
+        var items =count >0?  await source.Skip((pageIndex - 1) * pageSize).Take(pageSize).ToListAsync() : new List<T>();
         return new PaginatedList<T>(items, count, pageIndex, pageSize);
     }
 }

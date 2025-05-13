@@ -1,23 +1,59 @@
-@model  MvcMovie.Models.ProductViewModel
+@model MvcMovie.Models.ProductViewModel
+@Html.ValidationSummary(true, "", new { @class = "text-danger" })
+
+@{
+    ViewData["Title"] = "Update Product";
+}
 
 <h2>Edit Product</h2>
 
 <form asp-action="Edit" enctype="multipart/form-data">
-    <div class="form-group">
-        <label asp-for="Name" class="control-label"></label>
-        <input asp-for="Name" class="form-control" />
-        <span asp-validation-for="Name" class="text-danger"></span>
-    </div>
-    <div class="form-group">
-        <label asp-for="Price" class="control-label"></label>
-        <input asp-for="Price" class="form-control" />
-        <span asp-validation-for="Price" class="text-danger"></span>
-    </div>
+    <div class="row">
+        <div class=" col-8">
+            <div class="form-group">
+                <label asp-for="Name" class="control-label"></label>
+                <input asp-for="Name" class="form-control" />
+                <span asp-validation-for="Name" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Price" class="control-label"></label>
+                <input asp-for="Price" class="form-control" />
+                <span asp-validation-for="Price" class="text-danger"></span>
+            </div>
 
-    <div>
-        <label for="Upload Image"></label>
-        <input asp-for="ImageFile" type="file" name="ImageFile"  class="form-control"/>
+            <div class="form-group">
+                <label asp-for="Currency" class="control-label"></label>
+                <select asp-for="Currency" class="form-control">
+                    <option value=""> Select Currency</option>
+                    @foreach (var currency in Model.Currencies)
+                    {
+                        <option value="@currency.Value">@currency.Text</option>
+                    }
+                </select>
+                <span asp-asp-validation-for="Currency" class="text-danger"></span>
+
+            </div>
+            <div>
+
+                <label for="Upload Image"></label>
+                <input  asp-for="ImageFile" type="file" name="ImageFile" class="form-control" onchange="previewImage(this)" />
+
+            </div>
+
+            <button type="submit" class="btn btn-success mt-2">Save</button>
+            <a asp-action="Index" class="btn btn-secondary mt-2">Cancel</a>
+        </div>
+
+        <div class="  col-4">
+            <div>
+                <img id="imagePreview" class="preview-img" src="~/uploads/@Model.ImageName" width="100%" style="object-fit: contain;" alt="">
+
+            </div>
+        </div>
     </div>
-    <button type="submit" class="btn btn-success">Save</button>
-    <a asp-action="Index" class="btn btn-secondary">Cancel</a>
 </form>
+
+
+@section Scripts {
+    <script src="~/js/preview.js"></script>
+}

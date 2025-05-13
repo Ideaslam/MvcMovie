@@ -661,3 +661,10 @@ System.IO.DirectoryNotFoundException: Could not find a part of the path '/wwwroo
 2025-05-13 13:23:56.495 +03:00 [INF] 🚀 Application started up
 2025-05-13 13:24:07.885 +03:00 [WRN] Failed to determine the https port for redirect.
 2025-05-13 13:24:08.165 +03:00 [WRN] No store type was specified for the decimal property 'Price' on entity type 'Product'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-05-13 13:24:37.229 +03:00 [INF] 🚀 Application started up
+2025-05-13 13:24:44.576 +03:00 [WRN] Failed to determine the https port for redirect.
+2025-05-13 13:24:44.837 +03:00 [WRN] No store type was specified for the decimal property 'Price' on entity type 'Product'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-05-13 13:26:27.842 +03:00 [INF] 🚀 Application started up
+2025-05-13 13:27:35.843 +03:00 [INF] 🚀 Application started up
+2025-05-13 13:27:36.488 +03:00 [WRN] Failed to determine the https port for redirect.
+2025-05-13 13:27:36.781 +03:00 [WRN] No store type was specified for the decimal property 'Price' on entity type 'Product'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
